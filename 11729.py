@@ -1,5 +1,5 @@
 """
-    11729. 하노이 탑 이동 순서
+    11729. 하노이 탑 이동 순서 
 """
 def hanoi(n, from_bar, by_bar, to_bar):
     if n == 0: return 
