@@ -14,5 +14,4 @@ def run(a, b):
 
 if __name__ == "__main__":
     for _ in range(int(stdin.readline().strip())):
-        a, b = map(int, stdin.readline().strip().split())
-        run(a, b)
+        run(*map(int, stdin.readline().strip().split()))
