@@ -2,7 +2,6 @@
     1010. 다리 놓기
 """
 from math import factorial
-import math
 from sys import stdin
 
 read = stdin.readline
