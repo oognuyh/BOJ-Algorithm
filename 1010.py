@@ -9,7 +9,7 @@ read = stdin.readline
 
 def run(T):
     for _ in range(T):
-        M, N = map(int, read().strip().split())        
+        N, M = map(int, read().strip().split())        
 
         print(factorial(M) // (factorial(N) * factorial(M - N)))
 
