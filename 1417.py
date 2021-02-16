@@ -8,9 +8,6 @@ def run(N):
     def get_poll():
         return int(read()), [int(read()) for _ in range(N - 1)]
 
-    def get_greater_than_dasom():
-        return [p for p in poll if p > dasom]
-
     def is_dasom_less_than_others():
         poll.sort()
 
@@ -24,11 +21,9 @@ def run(N):
     dasom, poll = get_poll()
     answer = 0
 
-    poll = get_greater_than_dasom()
-
     while is_dasom_less_than_others():
         bribe()
-
+        
     print(answer)
 
 if __name__ == "__main__":
