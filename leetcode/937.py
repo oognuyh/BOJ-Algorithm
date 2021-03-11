@@ -14,7 +14,7 @@ class Solution:
         letter_logs = sorted(letter_logs, key = lambda log: (log.split()[1:], log.split()[0]))
         
         return letter_logs + digit_logs
-        
+
 """
     - 40 ms 14.4 MB
 
@@ -34,6 +34,6 @@ class Solution:
             letter_logs.sort(key = lambda log: (log.split()[1:], log.split()[0]))
 
     # Tips
-        1. split(seq, maxsplit) means to only at most one time
+        1. log.split(" ", 1) means to only at most one time, from left to right, upon encountering a white-space character, split the string into two strings and store the two strings in a list
         2. sort() is faster than sorted()
 """
