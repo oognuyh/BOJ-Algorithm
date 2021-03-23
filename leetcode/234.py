@@ -28,7 +28,7 @@ class Solution:
                     return False
             return True
         
-        2. two pointers
+        2. two pointers - 876 ms 47.3 MB
             reverse, fast = None, head
             # Reverse the first half part of the list.
             while fast and fast.next:
