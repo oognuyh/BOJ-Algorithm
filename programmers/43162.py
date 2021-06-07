@@ -1,8 +1,6 @@
 """
     43162. 네트워크
 """
-from collections import defaultdict
-
 def solution(n, computers):
     def connect(i, j):
         for k in range(n):
