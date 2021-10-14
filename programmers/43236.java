@@ -1,5 +1,5 @@
 /*
- * 43256. 징검다리
+ * 43236. 징검다리
  */
 import java.util.Arrays;
 
